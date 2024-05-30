@@ -26,4 +26,4 @@ jobs:
           file: ./Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
           push: true
-          tags: ${{ vars.CUSTOM_REGISTRY_URL }}/alpine:latest
+          tags: ${{ vars.CUSTOM_REGISTRY_URL }}alpine:latest
