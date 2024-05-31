@@ -28,4 +28,4 @@ jobs:
           file: ./Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
           push: true
-          tags: ${{ vars.CUSTOM_REGISTRY_URL }}/cimg-android:2024.04.1
+          tags: ${{ vars.CUSTOM_REGISTRY_URL }}/gradle:jdk-lts-and-current-graal-jammy

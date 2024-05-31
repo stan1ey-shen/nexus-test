@@ -1,1 +1,2 @@
-FROM cimg/android:2024.04.1
+FROM gradle:jdk-lts-and-current-graal-jammy
+
