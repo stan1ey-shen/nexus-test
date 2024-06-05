@@ -1,2 +1,1 @@
-FROM gradle:jdk-lts-and-current-graal-jammy
-
+FROM jenkins/jenkins:2.461-jdk11
